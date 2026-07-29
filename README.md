@@ -43,10 +43,10 @@ This project relies on the following core Python libraries:
 
 ## 📁 Project Structure
 ```
-penguin-clustering/
+Clustering-Antartica-Penguin-Species/
 ├── data/
 │   └── penguins.csv              # The raw Palmer Penguins dataset
-├── notebooks/
+├── analysis_files/
 │   ├── cluster_analysis.ipynb    # Complete analysis notebook
 │   └── cluster_analysis.py       # Script for automated analysis
 ├── images/                       # Output folder for generated visualizations
@@ -73,8 +73,7 @@ Ensure Python 3.8+ and `pip` are installed on your system.
 ### Steps
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/penguin-clustering.git
-   cd penguin-clustering
+   git clone https://github.com/PRSPrithvi/Clustering-Antartica-Penguin-Species.git
    ```
 
 2. **Create and activate a virtual environment:**
@@ -89,7 +88,7 @@ Ensure Python 3.8+ and `pip` are installed on your system.
 ---
 
 ## 📊 Usage
-The entire pipeline is contained within a single cohesive script/notebook. Open `notebooks/clustering_pipeline.ipynb` in Jupyter Notebook or JupyterLab and run all cells sequentially to reproduce the data cleaning, model training, composite scoring, and visualization generation.
+The entire pipeline is contained within a single cohesive script/notebook. Open `analysis_files/clustering_pipeline.ipynb` in Jupyter Notebook or JupyterLab and run all cells sequentially to reproduce the data cleaning, model training, composite scoring, and visualization generation.
 
 ---
 
